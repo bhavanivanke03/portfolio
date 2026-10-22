@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bhavani's software developer portfolio showcasing skills, projects and education.">
+    <title>Bhavani | Software Developer</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">B<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="hero section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow"><span class="status-dot"></span> Welcome to my portfolio</p>
+                    <p class="hello">Hello, I'm</p>
+                    <h1>Bhavani<span class="accent">.</span></h1>
+                    <h2>Software Developer</h2>
+
+                    <p class="hero-description">
+                        A Computer Science Engineering graduate passionate about
+                        building useful applications and creating clean,
+                        user-friendly web experiences.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+                        <a href="Resume1.pdf" class="btn btn-outline" download>
+                            Download Resume ↓
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/bhavanivanke03" target="_blank"
+                           rel="noopener noreferrer">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/in/bhavani-vanke-593a62353?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"
+                           rel="noopener noreferrer">LinkedIn ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="visual-glow"></div>
+                    <div class="profile-frame">
+                        <img src="image.jpeg"
+                             alt="Bhavani's profile"
+                             class="profile-photo"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="photo-placeholder">
+                            <span>B.</span>
+                            <small>Add your photo</small>
+                        </div>
+                    </div>
+                    <div class="floating-card card-top">
+                        <span class="card-icon">✦</span>
+                        <div>
+                            <strong>Creative Thinker</strong>
+                            <small>Always learning</small>
+                        </div>
+                    </div>
+                    <div class="floating-card card-bottom">
+                        <span class="code-icon">&lt;/&gt;</span>
+                        <div>
+                            <strong>Developer</strong>
+                            <small>Turning ideas into code</small>
+                        </div>
+                    </div>
+                    <div class="decor decor-one"></div>
+                    <div class="decor decor-two"></div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-hint">SCROLL TO EXPLORE ↓</a>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span class="accent">Me</span></h2>
+                    <p>A little about my journey and interests.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-symbol">&lt;/&gt;</div>
+                    <div class="about-content">
+                        <h3>Passionate about technology</h3>
+                        <p>
+                            I am a Computer Science Engineering graduate interested
+                            in software development and full stack development.
+                            I enjoy learning new technologies, solving problems,
+                            and developing applications that make everyday tasks easier.
+                        </p>
+                        <p>
+                            My learning journey includes Java, web development,
+                            databases, and machine learning-based projects.
+                            I look forward to growing as a developer through
+                            practical experience and continuous learning.
+                        </p>
+                        <a href="#contact" class="text-link">Let's connect ↗</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>My <span class="accent">Skills</span></h2>
+                    <p>Technologies and tools I have learned and practiced.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon html-icon">5</div>
+                        <h3>HTML</h3>
+                        <p>Web page structure</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon css-icon">✳</div>
+                        <h3>CSS</h3>
+                        <p>Styling and responsive design</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon js-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive web experiences</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon react-icon">⚛</div>
+                        <h3>React.js</h3>
+                        <p>Component-based UI development</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon java-icon">J</div>
+                        <h3>Java</h3>
+                        <p>Object-oriented programming</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon mysql-icon">▤</div>
+                        <h3>MySQL</h3>
+                        <p>Database management and SQL</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">THINGS I HAVE BUILT</p>
+                    <h2>Featured <span class="accent">Projects</span></h2>
+                    <p>Academic projects that reflect my learning and interests.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-visual project-one">
+                            <span class="project-number">01</span>
+                            <div class="project-art">▤</div>
+                            <span class="project-label">JAVA DEVELOPMENT</span>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">MANAGEMENT SYSTEM</p>
+                            <h3>Student Management System</h3>
+                            <p>
+                                An application concept for managing student
+                                records and organizing student information.
+                            </p>
+                            <div class="tags">
+                                <span>Java</span><span>JDBC</span><span>MySQL</span>
+                            </div>
+                            <a href="#contact" class="text-link">Project details ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual project-two">
+                            <span class="project-number">02</span>
+                            <div class="project-art">◉</div>
+                            <span class="project-label">ARTIFICIAL INTELLIGENCE</span>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">AI-BASED SYSTEM</p>
+                            <h3>AI Interview Cheating Detection</h3>
+                            <p>
+                                An AI-based project focused on identifying
+                                potentially suspicious activities during
+                                online interviews.
+                            </p>
+                            <div class="tags">
+                                <span>AI</span><span>Computer Vision</span><span>Web</span>
+                            </div>
+                            <a href="#contact" class="text-link">Project details ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual project-three">
+                            <span class="project-number">03</span>
+                            <div class="project-art">⌁</div>
+                            <span class="project-label">MACHINE LEARNING</span>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-type">NLP & TEXT ANALYSIS</p>
+                            <h3>Cyberbullying Detection</h3>
+                            <p>
+                                A machine learning project exploring the
+                                detection of cyberbullying in social media
+                                messages using text analysis techniques.
+                            </p>
+                            <div class="tags">
+                                <span>Machine Learning</span><span>NLP</span><span>BERT</span>
+                            </div>
+                            <a href="#contact" class="text-link">Project details ↗</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY BACKGROUND</p>
+                    <h2>My <span class="accent">Education</span></h2>
+                    <p>The foundation of my technical journey.</p>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">⌂</div>
+                    <div>
+                        <p class="project-type">2022 — 2026</p>
+                        <h3>B.E. Computer Science Engineering</h3>
+                        <p>Bheemanna Khandre Institute of Technology</p>
+                        <span class="education-badge">Bachelor's Degree</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card">
+                    <p class="eyebrow">HAVE AN OPPORTUNITY?</p>
+                    <h2>Let's Work <span class="accent">Together</span></h2>
+                    <p>
+                        I am interested in software development opportunities
+                        where I can apply my skills, learn from others, and grow
+                        as a developer.
+                    </p>
+
+                    <div class="contact-buttons">
+                        <a class="btn btn-primary"
+                           href="mailto:bhavanivanke@gmail.com">
+                            Email Me ↗
+                        </a>
+                        <a class="btn btn-outline"
+                           href="https://www.linkedin.com/in/bhavani-vanke-593a62353?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                           target="_blank" rel="noopener noreferrer">
+                            LinkedIn ↗
+                        </a>
+                        <a class="btn btn-outline"
+                           href="https://github.com/bhavanivanke03"
+                           target="_blank" rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">B<span>.</span></a>
+            <p>Designed and built by Bhavani.</p>
+            <a href="#home" class="back-top">Back to top ↑</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> Bhavani. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
